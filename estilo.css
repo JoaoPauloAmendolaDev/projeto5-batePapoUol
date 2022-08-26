@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 667px;
+}
+
+ul{
+    margin-top: 26px;
+    box-shadow: 0 0 5px black;
+    background-color: #e5e5e5;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 375px;
+    box-shadow: 0 0 5px black;
+}
+
+header ion-icon{
+    font-size: 42px;
+    padding-right: 20px;
+}
+
+header img{
+    padding-left: 20px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 375px;
+    height: 80px;
+}
+
+footer ion-icon{
+    font-size: 26px;
+    padding-right: 20px;
+}
+
+::placeholder{
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'Roboto';
+    line-height: 21px;
+    font-weight:400;
+}
+
+.Conteiner{
+    position: relative;
+    height: 667px;
+    width: 375px;
+}
+
+.MensagensBox{
+    height: 500px;
+    width: 375px;
+    overflow-y:scroll;
+}
+
+.Escondido{
+    display: none;
+}
+
+.BarraLateral{
+    width: 259px;
+    height: 667px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.Texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 84px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    background-color: brown;
+}
+
+.Contatos{
+    height: fit-content;
+    width: 100%;
+}
+.Visibilidade{
+    display: flex;
+    height: 66px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: blanchedalmond;
+}
+
+.Confirmar{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellowgreen;
+    position: absolute;
+    bottom: 50px;
+    right: 65px;
+}
+
+.CorStatus{
+    background-color: #DCDCDC;
+}
+
+.CorMensagensTodos{
+    background-color: #FFFFFF;
+}
+.CorMensagensPrivadas{
+    background-color: #FFDEDE;
+}
+.Mensagem{
+    width: 300px;
+    height: 40px;
+    border: 0;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+}
+.Roboto{
+    font-family: 'Roboto';
+    
+}
