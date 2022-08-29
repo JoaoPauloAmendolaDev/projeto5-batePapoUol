@@ -20,6 +20,7 @@ li{
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
+    overflow-y:auto;
 }
 header{
     display: flex;
@@ -68,7 +69,7 @@ footer ion-icon{
 .MensagensBox{
     height: 500px;
     width: 375px;
-    overflow-y:scroll;
+    overflow-y:auto;
 }
 
 .Escondido{
@@ -143,5 +144,5 @@ footer ion-icon{
 }
 .Roboto{
     font-family: 'Roboto';
-    
+
 }

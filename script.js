@@ -21,7 +21,7 @@ function SeuNome(){
     axios
     .post('https://mock-api.driven.com.br/api/v6/uol/participants',objetoNome)
     .then(NomeEnviado => console.log(NomeEnviado))
-    .catch(erro => NomeInvalido())
+    .catch(erro => NomeInvalido(erro))
 }
 
 
