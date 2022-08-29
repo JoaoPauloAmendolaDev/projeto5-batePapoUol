@@ -3,6 +3,7 @@ const BarraLateral = document.querySelector(".BarraLateral")
 const listaMensagens = document.querySelector(".ListaMensagens")
 const InputMensagem = document.getElementById('mensagem')
 const BotaoEnviarMensagem = document.querySelector(".EnviarMensagem")
+let ultimaMensagem = listaMensagens.lastChild
 let mensagemEnviada = InputMensagem.value
 let mensagem
 let objetoNome = {
@@ -45,17 +46,6 @@ console.log('entrei no manter conexão')
 /*-------------------------------------------------FIM DA FUNÇÃO PARA MANTER CONECTADO----------------------------------------*/
 
 
-function AbrirBarraLateral(){
-    BarraLateral.classList.remove("Escondido")
-}
-
-function Confirmar(){
-    console.log('Confirmei')
-    BarraLateral.classList.add("Escondido")
-}
-
-
-
 setInterval(() => {
     axios.get('https://mock-api.driven.com.br/api/v6/uol/messages')
     .then(mensagens => RodarMensagens(mensagens))
@@ -91,7 +81,8 @@ function RodarMensagens(mensagens){
             else if (contador + 1 == QuantidadeDasMensagens){
 
             }
-
+            ultimaMensagem = listaMensagens.lastChild
+            ultimaMensagem.scrollIntoView()
             contador += 1
         }
 }
