@@ -10,7 +10,7 @@ As technologies used were JavaScript, AXIOS (Axios it's a client HTTP based-on-p
 
 (PT-BR) Projeto 5 - BatePapoUol
 
-Esse projeto foi feito em colaboração entre Maristane Figueiredo e João Paulo S. Amendola.
+Esse projeto foi feito por João Paulo S. Amendola.
 
 O trabalho consiste em um projeto em individual de um site no modelo de um simples chat, onde o usuário pode mandar, receber e ver mensagens privadas.
 
